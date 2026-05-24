@@ -1,0 +1,1460 @@
+{
+    "company": {
+      "stage": "Seed",
+      "industry_sector": "Fintech/Lender",
+      "country": "Nigeria",
+      "currency": "USD",
+      "name": "FastApproval"
+    },
+    "report_details": {
+      "data_range_months": "12",
+      "reporting_year": "2024",
+      "no_peers_compared": "12"
+    },
+    "user_metrics": {
+      "revenue_growth_rate": "19.3%",
+      "gross_margin": "70.0%",
+      "runway": "12.0 months",
+      "burn_multiple": "1.08x",
+      "revenue_per_employee": "6427",
+      "cac_payback": "21.4 mo"
+    },
+    "revenue_growth_vs_mrr": {
+      "type": "echarts@v5a",
+      "width": 600,
+      "height": 400,
+      "theme": null,
+      "option": {
+        "backgroundColor": {
+          "type": "linear",
+          "x": 0,
+          "y": 0,
+          "x2": 0,
+          "y2": 1,
+          "colorStops": [
+            {
+              "offset": 0,
+              "color": "#FFFFFF"
+            },
+            {
+              "offset": 1,
+              "color": "#F5FBFF"
+            }
+          ]
+        },
+        "grid": {
+          "top": 60,
+          "right": 40,
+          "bottom": 90,
+          "left": 70
+        },
+        "xAxis": {
+          "name": "MRR (USD)",
+          "nameLocation": "middle",
+          "nameGap": 40,
+          "type": "value",
+          "min": 30000,
+          "max": 130000,
+          "splitLine": {
+            "show": false
+          },
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#737373"
+            }
+          },
+          "axisTick": {
+            "lineStyle": {
+              "color": "#737373"
+            }
+          },
+          "nameTextStyle": {
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": 16,
+            "fontWeight": 500,
+            "color": "#737373"
+          },
+          "axisLabel": {
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": 16,
+            "color": "#737373"
+          }
+        },
+        "yAxis": {
+          "name": "Revenue Growth Rate (%)",
+          "nameLocation": "middle",
+          "nameGap": 50,
+          "type": "value",
+          "min": 12,
+          "max": 25,
+          "splitLine": {
+            "show": false
+          },
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#737373"
+            }
+          },
+          "axisTick": {
+            "lineStyle": {
+              "color": "#737373"
+            }
+          },
+          "nameTextStyle": {
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": 16,
+            "fontWeight": 500,
+            "color": "#737373"
+          },
+          "axisLabel": {
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": 16,
+            "color": "#737373"
+          }
+        },
+        "series": [
+          {
+            "name": "Q1",
+            "type": "scatter",
+            "symbol": "circle",
+            "symbolSize": 16,
+            "itemStyle": {
+              "color": "#1E3A8A"
+            },
+            "label": {
+              "show": true,
+              "formatter": "Q1",
+              "position": "top",
+              "color": "#1E3A8A",
+              "fontFamily": "Geist, sans-serif",
+              "fontWeight": 500
+            },
+            "data": [
+              [
+                49666,
+                15.1
+              ]
+            ]
+          },
+          {
+            "name": "Median",
+            "type": "scatter",
+            "symbol": "circle",
+            "symbolSize": 16,
+            "itemStyle": {
+              "color": "#1E3A8A"
+            },
+            "label": {
+              "show": true,
+              "formatter": "Median",
+              "position": "top",
+              "color": "#1E3A8A",
+              "fontFamily": "Geist, sans-serif",
+              "fontWeight": 500
+            },
+            "data": [
+              [
+                65500,
+                15.7
+              ]
+            ]
+          },
+          {
+            "name": "Q3",
+            "type": "scatter",
+            "symbol": "circle",
+            "symbolSize": 16,
+            "itemStyle": {
+              "color": "#1E3A8A"
+            },
+            "label": {
+              "show": true,
+              "formatter": "Q3",
+              "position": "top",
+              "color": "#1E3A8A",
+              "fontFamily": "Geist, sans-serif",
+              "fontWeight": 500
+            },
+            "data": [
+              [
+                89166,
+                17.1
+              ]
+            ]
+          },
+          {
+            "name": "You Circle",
+            "type": "scatter",
+            "symbol": "path://M0,-10 A10,10 0 1,1 0,10 A10,10 0 1,1 0,-10 Z",
+            "symbolSize": 32,
+            "itemStyle": {
+              "color": "#1E3A8A"
+            },
+            "data": [
+              [
+                110000,
+                21.9
+              ]
+            ]
+          },
+          {
+            "name": "You",
+            "type": "scatter",
+            "symbol": "path://M0,-5 L1.3,-1.8 L4.8,-1.6 L2.3,0.9 L3,4 L0,2.5 L-3,4 L-2.3,0.9 L-4.8,-1.6 L-1.3,-1.8 Z",
+            "symbolSize": 20,
+            "itemStyle": {
+              "color": "#FFFFFF"
+            },
+            "label": {
+              "show": false
+            },
+            "data": [
+              [
+                110000,
+                21.9
+              ]
+            ],
+            "markLine": {
+              "silent": true,
+              "symbol": [
+                "none",
+                "none"
+              ],
+              "lineStyle": {
+                "color": "#AAAAAA",
+                "type": "dashed",
+                "width": 1
+              },
+              "label": {
+                "show": false
+              },
+              "data": [
+                {
+                  "xAxis": 110000
+                },
+                {
+                  "yAxis": 21.9
+                }
+              ]
+            }
+          }
+        ],
+        "tooltip": {
+          "trigger": "item"
+        }
+      }
+    },
+    "revenue_growth_rate": {
+      "type": "echarts@v5a",
+      "width": 600,
+      "height": 320,
+      "category": "Top 15%",
+      "option": {
+        "backgroundColor": {
+          "type": "linear",
+          "x": 0,
+          "y": 0,
+          "x2": 0,
+          "y2": 1,
+          "colorStops": [
+            {
+              "offset": 0,
+              "color": "#FFFFFF"
+            },
+            {
+              "offset": 1,
+              "color": "#F5FBFF"
+            }
+          ]
+        },
+        "grid": {
+          "top": 10,
+          "right": 40,
+          "bottom": 60,
+          "left": 50
+        },
+        "xAxis": {
+          "type": "value",
+          "min": 0,
+          "max": 60,
+          "splitLine": {
+            "show": false
+          },
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#737373"
+            }
+          },
+          "axisTick": {
+            "lineStyle": {
+              "color": "#737373"
+            }
+          },
+          "axisLabel": {
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": 16,
+            "color": "#737373"
+          }
+        },
+        "yAxis": [
+          {
+            "type": "category",
+            "data": [
+              ""
+            ],
+            "show": false
+          },
+          {
+            "type": "value",
+            "show": false,
+            "min": 0,
+            "max": 12
+          }
+        ],
+        "series": [
+          {
+            "name": "Distribution",
+            "type": "line",
+            "yAxisIndex": 1,
+            "xAxisIndex": 0,
+            "smooth": true,
+            "symbol": "none",
+            "z": 1,
+            "lineStyle": {
+              "color": "#1E3A8A",
+              "width": 1.5
+            },
+            "areaStyle": {
+              "color": {
+                "type": "linear",
+                "x": 0,
+                "y": 0,
+                "x2": 0,
+                "y2": 1,
+                "colorStops": [
+                  {
+                    "offset": 0,
+                    "color": "rgba(30,58,138,0.18)"
+                  },
+                  {
+                    "offset": 1,
+                    "color": "rgba(30,58,138,0.01)"
+                  }
+                ]
+              }
+            },
+            "data": [
+              [
+                0,
+                0
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                10,
+                2
+              ],
+              [
+                17,
+                0
+              ],
+              [
+                25,
+                1
+              ],
+              [
+                36,
+                0
+              ],
+              [
+                46,
+                1
+              ],
+              [
+                54,
+                3
+              ],
+              [
+                60,
+                0
+              ]
+            ]
+          },
+          {
+            "name": "Box",
+            "type": "boxplot",
+            "layout": "horizontal",
+            "z": 2,
+            "itemStyle": {
+              "color": "rgba(30,58,138,0.18)",
+              "borderColor": "#1E3A8A",
+              "borderWidth": 1.5
+            },
+            "data": [
+              [
+                1.97,
+                9.64,
+                25.25,
+                30.94,
+                53.94
+              ]
+            ],
+            "markPoint": {
+              "symbol": "circle",
+              "symbolSize": 0,
+              "data": [
+                {
+                  "name": "Min",
+                  "coord": [
+                    1.97,
+                    ""
+                  ],
+                  "label": {
+                    "show": true,
+                    "formatter": "Min\n1.97",
+                    "position": "top",
+                    "offset": [
+                      0,
+                      -35
+                    ],
+                    "color": "#1E3A8A",
+                    "fontFamily": "Geist, sans-serif",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                    "lineHeight": 16,
+                    "align": "center"
+                  }
+                },
+                {
+                  "name": "Q1",
+                  "coord": [
+                    9.64,
+                    ""
+                  ],
+                  "label": {
+                    "show": true,
+                    "formatter": "Q1\n9.64",
+                    "position": "bottom",
+                    "offset": [
+                      0,
+                      35
+                    ],
+                    "color": "#1E3A8A",
+                    "fontFamily": "Geist, sans-serif",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                    "lineHeight": 16,
+                    "align": "center"
+                  }
+                },
+                {
+                  "name": "Median",
+                  "coord": [
+                    25.25,
+                    ""
+                  ],
+                  "label": {
+                    "show": true,
+                    "formatter": "Median\n25.25",
+                    "position": "top",
+                    "offset": [
+                      0,
+                      -35
+                    ],
+                    "color": "#1E3A8A",
+                    "fontFamily": "Geist, sans-serif",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                    "lineHeight": 16,
+                    "align": "center"
+                  }
+                },
+                {
+                  "name": "Q3",
+                  "coord": [
+                    30.94,
+                    ""
+                  ],
+                  "label": {
+                    "show": true,
+                    "formatter": "Q3\n30.94",
+                    "position": "bottom",
+                    "offset": [
+                      0,
+                      35
+                    ],
+                    "color": "#1E3A8A",
+                    "fontFamily": "Geist, sans-serif",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                    "lineHeight": 16,
+                    "align": "center"
+                  }
+                },
+                {
+                  "name": "Max",
+                  "coord": [
+                    53.94,
+                    ""
+                  ],
+                  "label": {
+                    "show": true,
+                    "formatter": "Max\n53.94",
+                    "position": "top",
+                    "offset": [
+                      0,
+                      -35
+                    ],
+                    "color": "#1E3A8A",
+                    "fontFamily": "Geist, sans-serif",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                    "lineHeight": 16,
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "You Circle",
+            "type": "scatter",
+            "yAxisIndex": 0,
+            "symbol": "path://M0,-10 A10,10 0 1,1 0,10 A10,10 0 1,1 0,-10 Z",
+            "symbolSize": 32,
+            "z": 3,
+            "itemStyle": {
+              "color": "#1E3A8A"
+            },
+            "data": [
+              [
+                53.94,
+                ""
+              ]
+            ]
+          },
+          {
+            "name": "You",
+            "type": "scatter",
+            "yAxisIndex": 0,
+            "symbol": "path://M0,-5 L1.3,-1.8 L4.8,-1.6 L2.3,0.9 L3,4 L0,2.5 L-3,4 L-2.3,0.9 L-4.8,-1.6 L-1.3,-1.8 Z",
+            "symbolSize": 20,
+            "z": 4,
+            "itemStyle": {
+              "color": "#FFFFFF"
+            },
+            "label": {
+              "show": false
+            },
+            "data": [
+              [
+                53.94,
+                ""
+              ]
+            ],
+            "markLine": {
+              "silent": true,
+              "symbol": [
+                "none",
+                "none"
+              ],
+              "lineStyle": {
+                "color": "#AAAAAA",
+                "type": "dashed",
+                "width": 1
+              },
+              "label": {
+                "show": false
+              },
+              "data": [
+                {
+                  "xAxis": 53.94
+                }
+              ]
+            }
+          }
+        ],
+        "tooltip": {
+          "trigger": "item"
+        }
+      }
+    },
+    "gross_margin": {
+      "type": "echarts@v5a",
+      "width": 600,
+      "height": 320,
+      "category": "Top 15%",
+      "option": {
+        "backgroundColor": {
+          "type": "linear",
+          "x": 0,
+          "y": 0,
+          "x2": 0,
+          "y2": 1,
+          "colorStops": [
+            {
+              "offset": 0,
+              "color": "#FFFFFF"
+            },
+            {
+              "offset": 1,
+              "color": "#F5FBFF"
+            }
+          ]
+        },
+        "grid": {
+          "top": 10,
+          "right": 40,
+          "bottom": 60,
+          "left": 50
+        },
+        "xAxis": {
+          "type": "value",
+          "min": 0,
+          "max": 100,
+          "splitLine": {
+            "show": false
+          },
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#737373"
+            }
+          },
+          "axisTick": {
+            "lineStyle": {
+              "color": "#737373"
+            }
+          },
+          "axisLabel": {
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": 16,
+            "color": "#737373"
+          }
+        },
+        "yAxis": [
+          {
+            "type": "category",
+            "data": [
+              ""
+            ],
+            "show": false
+          },
+          {
+            "type": "value",
+            "show": false,
+            "min": 0,
+            "max": 12
+          }
+        ],
+        "series": [
+          {
+            "name": "Distribution",
+            "type": "line",
+            "yAxisIndex": 1,
+            "xAxisIndex": 0,
+            "smooth": true,
+            "symbol": "none",
+            "z": 1,
+            "lineStyle": {
+              "color": "#1E3A8A",
+              "width": 1.5
+            },
+            "areaStyle": {
+              "color": {
+                "type": "linear",
+                "x": 0,
+                "y": 0,
+                "x2": 0,
+                "y2": 1,
+                "colorStops": [
+                  {
+                    "offset": 0,
+                    "color": "rgba(30,58,138,0.18)"
+                  },
+                  {
+                    "offset": 1,
+                    "color": "rgba(30,58,138,0.01)"
+                  }
+                ]
+              }
+            },
+            "data": [
+              [
+                0,
+                0
+              ],
+              [
+                15,
+                1
+              ],
+              [
+                30,
+                2
+              ],
+              [
+                45,
+                3
+              ],
+              [
+                60,
+                4
+              ],
+              [
+                74.7,
+                5
+              ],
+              [
+                80,
+                2
+              ],
+              [
+                90,
+                1
+              ],
+              [
+                100,
+                0
+              ]
+            ]
+          },
+          {
+            "name": "Box",
+            "type": "boxplot",
+            "layout": "horizontal",
+            "z": 2,
+            "itemStyle": {
+              "color": "rgba(30,58,138,0.18)",
+              "borderColor": "#1E3A8A",
+              "borderWidth": 1.5
+            },
+            "data": [
+              [
+                30.0,
+                50.0,
+                74.7,
+                82.0,
+                95.0
+              ]
+            ],
+            "markPoint": {
+              "symbol": "circle",
+              "symbolSize": 0,
+              "data": [
+                {
+                  "name": "Min",
+                  "coord": [
+                    30.0,
+                    ""
+                  ],
+                  "label": {
+                    "show": true,
+                    "formatter": "Min\n30.0",
+                    "position": "top",
+                    "offset": [
+                      0,
+                      -35
+                    ],
+                    "color": "#1E3A8A",
+                    "fontFamily": "Geist, sans-serif",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                    "lineHeight": 16,
+                    "align": "center"
+                  }
+                },
+                {
+                  "name": "Q1",
+                  "coord": [
+                    50.0,
+                    ""
+                  ],
+                  "label": {
+                    "show": true,
+                    "formatter": "Q1\n50.0",
+                    "position": "bottom",
+                    "offset": [
+                      0,
+                      35
+                    ],
+                    "color": "#1E3A8A",
+                    "fontFamily": "Geist, sans-serif",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                    "lineHeight": 16,
+                    "align": "center"
+                  }
+                },
+                {
+                  "name": "Median",
+                  "coord": [
+                    74.7,
+                    ""
+                  ],
+                  "label": {
+                    "show": true,
+                    "formatter": "Median\n74.7",
+                    "position": "top",
+                    "offset": [
+                      0,
+                      -35
+                    ],
+                    "color": "#1E3A8A",
+                    "fontFamily": "Geist, sans-serif",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                    "lineHeight": 16,
+                    "align": "center"
+                  }
+                },
+                {
+                  "name": "Q3",
+                  "coord": [
+                    82.0,
+                    ""
+                  ],
+                  "label": {
+                    "show": true,
+                    "formatter": "Q3\n82.0",
+                    "position": "bottom",
+                    "offset": [
+                      0,
+                      35
+                    ],
+                    "color": "#1E3A8A",
+                    "fontFamily": "Geist, sans-serif",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                    "lineHeight": 16,
+                    "align": "center"
+                  }
+                },
+                {
+                  "name": "Max",
+                  "coord": [
+                    95.0,
+                    ""
+                  ],
+                  "label": {
+                    "show": true,
+                    "formatter": "Max\n95.0",
+                    "position": "top",
+                    "offset": [
+                      0,
+                      -35
+                    ],
+                    "color": "#1E3A8A",
+                    "fontFamily": "Geist, sans-serif",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                    "lineHeight": 16,
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "You Circle",
+            "type": "scatter",
+            "yAxisIndex": 0,
+            "symbol": "path://M0,-10 A10,10 0 1,1 0,10 A10,10 0 1,1 0,-10 Z",
+            "symbolSize": 32,
+            "z": 3,
+            "itemStyle": {
+              "color": "#1E3A8A"
+            },
+            "data": [
+              [
+                70.0,
+                ""
+              ]
+            ]
+          },
+          {
+            "name": "You",
+            "type": "scatter",
+            "yAxisIndex": 0,
+            "symbol": "path://M0,-5 L1.3,-1.8 L4.8,-1.6 L2.3,0.9 L3,4 L0,2.5 L-3,4 L-2.3,0.9 L-4.8,-1.6 L-1.3,-1.8 Z",
+            "symbolSize": 20,
+            "z": 4,
+            "itemStyle": {
+              "color": "#FFFFFF"
+            },
+            "label": {
+              "show": false
+            },
+            "data": [
+              [
+                70.0,
+                ""
+              ]
+            ],
+            "markLine": {
+              "silent": true,
+              "symbol": [
+                "none",
+                "none"
+              ],
+              "lineStyle": {
+                "color": "#AAAAAA",
+                "type": "dashed",
+                "width": 1
+              },
+              "label": {
+                "show": false
+              },
+              "data": [
+                {
+                  "xAxis": 70.0
+                }
+              ]
+            }
+          }
+        ],
+        "tooltip": {
+          "trigger": "item"
+        }
+      }
+    },
+    "burn_multiple": {
+      "type": "echarts@v5a",
+      "width": 600,
+      "height": 320,
+      "category": "Top 10%",
+      "option": {
+        "backgroundColor": {
+          "type": "linear",
+          "x": 0,
+          "y": 0,
+          "x2": 0,
+          "y2": 1,
+          "colorStops": [
+            {
+              "offset": 0,
+              "color": "#FFFFFF"
+            },
+            {
+              "offset": 1,
+              "color": "#F5FBFF"
+            }
+          ]
+        },
+        "grid": {
+          "top": 10,
+          "right": 40,
+          "bottom": 60,
+          "left": 50
+        },
+        "xAxis": {
+          "type": "value",
+          "min": 0,
+          "max": 4,
+          "splitLine": {
+            "show": false
+          },
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#737373"
+            }
+          },
+          "axisTick": {
+            "lineStyle": {
+              "color": "#737373"
+            }
+          },
+          "axisLabel": {
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": 16,
+            "color": "#737373"
+          }
+        },
+        "yAxis": [
+          {
+            "type": "category",
+            "data": [
+              ""
+            ],
+            "show": false
+          },
+          {
+            "type": "value",
+            "show": false,
+            "min": 0,
+            "max": 12
+          }
+        ],
+        "series": [
+          {
+            "name": "Distribution",
+            "type": "line",
+            "yAxisIndex": 1,
+            "xAxisIndex": 0,
+            "smooth": true,
+            "symbol": "none",
+            "z": 1,
+            "lineStyle": {
+              "color": "#1E3A8A",
+              "width": 1.5
+            },
+            "areaStyle": {
+              "color": {
+                "type": "linear",
+                "x": 0,
+                "y": 0,
+                "x2": 0,
+                "y2": 1,
+                "colorStops": [
+                  {
+                    "offset": 0,
+                    "color": "rgba(30,58,138,0.18)"
+                  },
+                  {
+                    "offset": 1,
+                    "color": "rgba(30,58,138,0.01)"
+                  }
+                ]
+              }
+            },
+            "data": [
+              [0, 0],
+              [0.5, 1],
+              [1.0, 3],
+              [1.5, 5],
+              [1.78, 4],
+              [2.2, 2],
+              [3.0, 1],
+              [3.5, 0]
+            ]
+          },
+          {
+            "name": "Box",
+            "type": "boxplot",
+            "layout": "horizontal",
+            "z": 2,
+            "itemStyle": {
+              "color": "rgba(30,58,138,0.18)",
+              "borderColor": "#1E3A8A",
+              "borderWidth": 1.5
+            },
+            "data": [
+              [0.8, 1.2, 1.78, 2.5, 3.5]
+            ],
+            "markPoint": {
+              "symbol": "circle",
+              "symbolSize": 0,
+              "data": [
+                {
+                  "name": "Min",
+                  "coord": [0.8, ""],
+                  "label": {
+                    "show": true,
+                    "formatter": "Min\n0.8",
+                    "position": "top",
+                    "offset": [0, -35],
+                    "color": "#1E3A8A",
+                    "fontFamily": "Geist, sans-serif",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                    "lineHeight": 16,
+                    "align": "center"
+                  }
+                },
+                {
+                  "name": "Q1",
+                  "coord": [1.2, ""],
+                  "label": {
+                    "show": true,
+                    "formatter": "Q1\n1.2",
+                    "position": "bottom",
+                    "offset": [0, 35],
+                    "color": "#1E3A8A",
+                    "fontFamily": "Geist, sans-serif",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                    "lineHeight": 16,
+                    "align": "center"
+                  }
+                },
+                {
+                  "name": "Median",
+                  "coord": [1.78, ""],
+                  "label": {
+                    "show": true,
+                    "formatter": "Median\n1.78",
+                    "position": "top",
+                    "offset": [0, -35],
+                    "color": "#1E3A8A",
+                    "fontFamily": "Geist, sans-serif",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                    "lineHeight": 16,
+                    "align": "center"
+                  }
+                },
+                {
+                  "name": "Q3",
+                  "coord": [2.5, ""],
+                  "label": {
+                    "show": true,
+                    "formatter": "Q3\n2.5",
+                    "position": "bottom",
+                    "offset": [0, 35],
+                    "color": "#1E3A8A",
+                    "fontFamily": "Geist, sans-serif",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                    "lineHeight": 16,
+                    "align": "center"
+                  }
+                },
+                {
+                  "name": "Max",
+                  "coord": [3.5, ""],
+                  "label": {
+                    "show": true,
+                    "formatter": "Max\n3.5",
+                    "position": "top",
+                    "offset": [0, -35],
+                    "color": "#1E3A8A",
+                    "fontFamily": "Geist, sans-serif",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                    "lineHeight": 16,
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "You Circle",
+            "type": "scatter",
+            "yAxisIndex": 0,
+            "symbol": "path://M0,-10 A10,10 0 1,1 0,10 A10,10 0 1,1 0,-10 Z",
+            "symbolSize": 32,
+            "z": 3,
+            "itemStyle": {
+              "color": "#1E3A8A"
+            },
+            "data": [[1.08, ""]]
+          },
+          {
+            "name": "You",
+            "type": "scatter",
+            "yAxisIndex": 0,
+            "symbol": "path://M0,-5 L1.3,-1.8 L4.8,-1.6 L2.3,0.9 L3,4 L0,2.5 L-3,4 L-2.3,0.9 L-4.8,-1.6 L-1.3,-1.8 Z",
+            "symbolSize": 20,
+            "z": 4,
+            "itemStyle": {
+              "color": "#FFFFFF"
+            },
+            "label": {
+              "show": false
+            },
+            "data": [[1.08, ""]],
+            "markLine": {
+              "silent": true,
+              "symbol": ["none", "none"],
+              "lineStyle": {
+                "color": "#AAAAAA",
+                "type": "dashed",
+                "width": 1
+              },
+              "label": {
+                "show": false
+              },
+              "data": [{ "xAxis": 1.08 }]
+            }
+          }
+        ],
+        "tooltip": {
+          "trigger": "item"
+        }
+      }
+    },
+    "revenue_per_employee": {
+      "type": "echarts@v5a",
+      "width": 600,
+      "height": 320,
+      "category": "Top 10%",
+      "option": {
+        "backgroundColor": {
+          "type": "linear",
+          "x": 0,
+          "y": 0,
+          "x2": 0,
+          "y2": 1,
+          "colorStops": [
+            { "offset": 0, "color": "#FFFFFF" },
+            { "offset": 1, "color": "#F5FBFF" }
+          ]
+        },
+        "grid": { "top": 10, "right": 40, "bottom": 60, "left": 50 },
+        "xAxis": {
+          "type": "value",
+          "min": 0,
+          "max": 15000,
+          "splitLine": { "show": false },
+          "axisLine": { "show": true, "lineStyle": { "color": "#737373" } },
+          "axisTick": { "lineStyle": { "color": "#737373" } },
+          "axisLabel": { "fontFamily": "Geist, sans-serif", "fontSize": 16, "color": "#737373" }
+        },
+        "yAxis": [
+          { "type": "category", "data": [""], "show": false },
+          { "type": "value", "show": false, "min": 0, "max": 12 }
+        ],
+        "series": [
+          {
+            "name": "Distribution",
+            "type": "line",
+            "yAxisIndex": 1,
+            "xAxisIndex": 0,
+            "smooth": true,
+            "symbol": "none",
+            "z": 1,
+            "lineStyle": { "color": "#1E3A8A", "width": 1.5 },
+            "areaStyle": {
+              "color": {
+                "type": "linear", "x": 0, "y": 0, "x2": 0, "y2": 1,
+                "colorStops": [
+                  { "offset": 0, "color": "rgba(30,58,138,0.18)" },
+                  { "offset": 1, "color": "rgba(30,58,138,0.01)" }
+                ]
+              }
+            },
+            "data": [[0,0], [2000,1], [4000,4], [4442,5], [6000,3], [8000,2], [10000,1], [12000,0]]
+          },
+          {
+            "name": "Box",
+            "type": "boxplot",
+            "layout": "horizontal",
+            "z": 2,
+            "itemStyle": { "color": "rgba(30,58,138,0.18)", "borderColor": "#1E3A8A", "borderWidth": 1.5 },
+            "data": [[2500, 3500, 4442, 6000, 12000]],
+            "markPoint": {
+              "symbol": "circle",
+              "symbolSize": 0,
+              "data": [
+                { "name": "Min", "coord": [2500, ""], "label": { "show": true, "formatter": "Min\n2500", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+                { "name": "Q1", "coord": [3500, ""], "label": { "show": true, "formatter": "Q1\n3500", "position": "bottom", "offset": [0, 35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+                { "name": "Median", "coord": [4442, ""], "label": { "show": true, "formatter": "Median\n4442", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+                { "name": "Q3", "coord": [6000, ""], "label": { "show": true, "formatter": "Q3\n6000", "position": "bottom", "offset": [0, 35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+                { "name": "Max", "coord": [12000, ""], "label": { "show": true, "formatter": "Max\n12000", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }}
+              ]
+            }
+          },
+          { "name": "You Circle", "type": "scatter", "yAxisIndex": 0, "symbol": "path://M0,-10 A10,10 0 1,1 0,10 A10,10 0 1,1 0,-10 Z", "symbolSize": 32, "z": 3, "itemStyle": { "color": "#1E3A8A" }, "data": [[6427, ""]]},
+          {
+            "name": "You",
+            "type": "scatter",
+            "yAxisIndex": 0,
+            "symbol": "path://M0,-5 L1.3,-1.8 L4.8,-1.6 L2.3,0.9 L3,4 L0,2.5 L-3,4 L-2.3,0.9 L-4.8,-1.6 L-1.3,-1.8 Z",
+            "symbolSize": 20,
+            "z": 4,
+            "itemStyle": { "color": "#FFFFFF" },
+            "label": { "show": false },
+            "data": [[6427, ""]],
+            "markLine": { "silent": true, "symbol": ["none", "none"], "lineStyle": { "color": "#AAAAAA", "type": "dashed", "width": 1 }, "label": { "show": false }, "data": [{ "xAxis": 6427 }]}
+          }
+        ],
+        "tooltip": { "trigger": "item" }
+      }
+    },
+    "valuation": {
+      "type": "echarts@v5a",
+      "width": 600,
+      "height": 320,
+      "category": "Top 25%",
+      "option": {
+        "backgroundColor": { "type": "linear", "x": 0, "y": 0, "x2": 0, "y2": 1, "colorStops": [{ "offset": 0, "color": "#FFFFFF" }, { "offset": 1, "color": "#F5FBFF" }] },
+        "grid": { "top": 10, "right": 40, "bottom": 60, "left": 50 },
+        "xAxis": { "type": "value", "min": 0, "max": 30000000, "splitLine": { "show": false }, "axisLine": { "show": true, "lineStyle": { "color": "#737373" } }, "axisTick": { "lineStyle": { "color": "#737373" } }, "axisLabel": { "fontFamily": "Geist, sans-serif", "fontSize": 16, "color": "#737373" }},
+        "yAxis": [
+          { "type": "category", "data": [""], "show": false },
+          { "type": "value", "show": false, "min": 0, "max": 12 }
+        ],
+        "series": [
+          { "name": "Distribution", "type": "line", "yAxisIndex": 1, "xAxisIndex": 0, "smooth": true, "symbol": "none", "z": 1, "lineStyle": { "color": "#1E3A8A", "width": 1.5 }, "areaStyle": { "color": { "type": "linear", "x": 0, "y": 0, "x2": 0, "y2": 1, "colorStops": [{ "offset": 0, "color": "rgba(30,58,138,0.18)" }, { "offset": 1, "color": "rgba(30,58,138,0.01)" }] } }, "data": [[0,0], [5000000,2], [10000000,5], [15000000,4], [20000000,2], [25000000,1], [30000000,0]]},
+          { "name": "Box", "type": "boxplot", "layout": "horizontal", "z": 2, "itemStyle": { "color": "rgba(30,58,138,0.18)", "borderColor": "#1E3A8A", "borderWidth": 1.5 }, "data": [[5000000, 10000000, 18000000, 25000000, 30000000]], "markPoint": { "symbol": "circle", "symbolSize": 0, "data": [
+            { "name": "Min", "coord": [5000000, ""], "label": { "show": true, "formatter": "Min\n5M", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Q1", "coord": [10000000, ""], "label": { "show": true, "formatter": "Q1\n10M", "position": "bottom", "offset": [0, 35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Median", "coord": [18000000, ""], "label": { "show": true, "formatter": "Median\n18M", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Q3", "coord": [25000000, ""], "label": { "show": true, "formatter": "Q3\n25M", "position": "bottom", "offset": [0, 35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Max", "coord": [30000000, ""], "label": { "show": true, "formatter": "Max\n30M", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }}
+          ]}},
+          { "name": "You Circle", "type": "scatter", "yAxisIndex": 0, "symbol": "path://M0,-10 A10,10 0 1,1 0,10 A10,10 0 1,1 0,-10 Z", "symbolSize": 32, "z": 3, "itemStyle": { "color": "#1E3A8A" }, "data": [[15000000, ""]]},
+          { "name": "You", "type": "scatter", "yAxisIndex": 0, "symbol": "path://M0,-5 L1.3,-1.8 L4.8,-1.6 L2.3,0.9 L3,4 L0,2.5 L-3,4 L-2.3,0.9 L-4.8,-1.6 L-1.3,-1.8 Z", "symbolSize": 20, "z": 4, "itemStyle": { "color": "#FFFFFF" }, "label": { "show": false }, "data": [[15000000, ""]], "markLine": { "silent": true, "symbol": ["none", "none"], "lineStyle": { "color": "#AAAAAA", "type": "dashed", "width": 1 }, "label": { "show": false }, "data": [{ "xAxis": 15000000 }]}}
+        ],
+        "tooltip": { "trigger": "item" }
+      }
+    },
+    "mrr": {
+      "type": "echarts@v5a",
+      "width": 600,
+      "height": 320,
+      "category": "Top 10%",
+      "option": {
+        "backgroundColor": { "type": "linear", "x": 0, "y": 0, "x2": 0, "y2": 1, "colorStops": [{ "offset": 0, "color": "#FFFFFF" }, { "offset": 1, "color": "#F5FBFF" }] },
+        "grid": { "top": 10, "right": 40, "bottom": 60, "left": 50 },
+        "xAxis": { "type": "value", "min": 0, "max": 200000, "splitLine": { "show": false }, "axisLine": { "show": true, "lineStyle": { "color": "#737373" } }, "axisTick": { "lineStyle": { "color": "#737373" } }, "axisLabel": { "fontFamily": "Geist, sans-serif", "fontSize": 16, "color": "#737373" }},
+        "yAxis": [
+          { "type": "category", "data": [""], "show": false },
+          { "type": "value", "show": false, "min": 0, "max": 12 }
+        ],
+        "series": [
+          { "name": "Distribution", "type": "line", "yAxisIndex": 1, "xAxisIndex": 0, "smooth": true, "symbol": "none", "z": 1, "lineStyle": { "color": "#1E3A8A", "width": 1.5 }, "areaStyle": { "color": { "type": "linear", "x": 0, "y": 0, "x2": 0, "y2": 1, "colorStops": [{ "offset": 0, "color": "rgba(30,58,138,0.18)" }, { "offset": 1, "color": "rgba(30,58,138,0.01)" }] } }, "data": [[0,0], [30000,1], [60000,4], [85000,5], [110000,3], [140000,1], [170000,0]]},
+          { "name": "Box", "type": "boxplot", "layout": "horizontal", "z": 2, "itemStyle": { "color": "rgba(30,58,138,0.18)", "borderColor": "#1E3A8A", "borderWidth": 1.5 }, "data": [[30000, 60000, 85000, 120000, 180000]], "markPoint": { "symbol": "circle", "symbolSize": 0, "data": [
+            { "name": "Min", "coord": [30000, ""], "label": { "show": true, "formatter": "Min\n30K", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Q1", "coord": [60000, ""], "label": { "show": true, "formatter": "Q1\n60K", "position": "bottom", "offset": [0, 35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Median", "coord": [85000, ""], "label": { "show": true, "formatter": "Median\n85K", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Q3", "coord": [120000, ""], "label": { "show": true, "formatter": "Q3\n120K", "position": "bottom", "offset": [0, 35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Max", "coord": [180000, ""], "label": { "show": true, "formatter": "Max\n180K", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }}
+          ]}},
+          { "name": "You Circle", "type": "scatter", "yAxisIndex": 0, "symbol": "path://M0,-10 A10,10 0 1,1 0,10 A10,10 0 1,1 0,-10 Z", "symbolSize": 32, "z": 3, "itemStyle": { "color": "#1E3A8A" }, "data": [[110000, ""]]},
+          { "name": "You", "type": "scatter", "yAxisIndex": 0, "symbol": "path://M0,-5 L1.3,-1.8 L4.8,-1.6 L2.3,0.9 L3,4 L0,2.5 L-3,4 L-2.3,0.9 L-4.8,-1.6 L-1.3,-1.8 Z", "symbolSize": 20, "z": 4, "itemStyle": { "color": "#FFFFFF" }, "label": { "show": false }, "data": [[110000, ""]], "markLine": { "silent": true, "symbol": ["none", "none"], "lineStyle": { "color": "#AAAAAA", "type": "dashed", "width": 1 }, "label": { "show": false }, "data": [{ "xAxis": 110000 }]}}
+        ],
+        "tooltip": { "trigger": "item" }
+      }
+    },
+    "capital_efficiency": {
+      "type": "echarts@v5a",
+      "width": 600,
+      "height": 320,
+      "category": "Top 10%",
+      "option": {
+        "backgroundColor": { "type": "linear", "x": 0, "y": 0, "x2": 0, "y2": 1, "colorStops": [{ "offset": 0, "color": "#FFFFFF" }, { "offset": 1, "color": "#F5FBFF" }] },
+        "grid": { "top": 10, "right": 40, "bottom": 60, "left": 50 },
+        "xAxis": { "type": "value", "min": 0, "max": 5, "splitLine": { "show": false }, "axisLine": { "show": true, "lineStyle": { "color": "#737373" } }, "axisTick": { "lineStyle": { "color": "#737373" } }, "axisLabel": { "fontFamily": "Geist, sans-serif", "fontSize": 16, "color": "#737373" }},
+        "yAxis": [
+          { "type": "category", "data": [""], "show": false },
+          { "type": "value", "show": false, "min": 0, "max": 12 }
+        ],
+        "series": [
+          { "name": "Distribution", "type": "line", "yAxisIndex": 1, "xAxisIndex": 0, "smooth": true, "symbol": "none", "z": 1, "lineStyle": { "color": "#1E3A8A", "width": 1.5 }, "areaStyle": { "color": { "type": "linear", "x": 0, "y": 0, "x2": 0, "y2": 1, "colorStops": [{ "offset": 0, "color": "rgba(30,58,138,0.18)" }, { "offset": 1, "color": "rgba(30,58,138,0.01)" }] } }, "data": [[0,0], [0.5,1], [1.0,3], [1.5,5], [2.0,3], [2.5,2], [3.5,1], [4.5,0]]},
+          { "name": "Box", "type": "boxplot", "layout": "horizontal", "z": 2, "itemStyle": { "color": "rgba(30,58,138,0.18)", "borderColor": "#1E3A8A", "borderWidth": 1.5 }, "data": [[0.8, 1.3, 1.8, 2.2, 3.5]], "markPoint": { "symbol": "circle", "symbolSize": 0, "data": [
+            { "name": "Min", "coord": [0.8, ""], "label": { "show": true, "formatter": "Min\n0.8", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Q1", "coord": [1.3, ""], "label": { "show": true, "formatter": "Q1\n1.3", "position": "bottom", "offset": [0, 35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Median", "coord": [1.8, ""], "label": { "show": true, "formatter": "Median\n1.8", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Q3", "coord": [2.2, ""], "label": { "show": true, "formatter": "Q3\n2.2", "position": "bottom", "offset": [0, 35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Max", "coord": [3.5, ""], "label": { "show": true, "formatter": "Max\n3.5", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }}
+          ]}},
+          { "name": "You Circle", "type": "scatter", "yAxisIndex": 0, "symbol": "path://M0,-10 A10,10 0 1,1 0,10 A10,10 0 1,1 0,-10 Z", "symbolSize": 32, "z": 3, "itemStyle": { "color": "#1E3A8A" }, "data": [[1.08, ""]]},
+          { "name": "You", "type": "scatter", "yAxisIndex": 0, "symbol": "path://M0,-5 L1.3,-1.8 L4.8,-1.6 L2.3,0.9 L3,4 L0,2.5 L-3,4 L-2.3,0.9 L-4.8,-1.6 L-1.3,-1.8 Z", "symbolSize": 20, "z": 4, "itemStyle": { "color": "#FFFFFF" }, "label": { "show": false }, "data": [[1.08, ""]], "markLine": { "silent": true, "symbol": ["none", "none"], "lineStyle": { "color": "#AAAAAA", "type": "dashed", "width": 1 }, "label": { "show": false }, "data": [{ "xAxis": 1.08 }]}}
+        ],
+        "tooltip": { "trigger": "item" }
+      }
+    },
+    "runway_months": {
+      "type": "echarts@v5a",
+      "width": 600,
+      "height": 320,
+      "category": "Bottom 50%",
+      "option": {
+        "backgroundColor": { "type": "linear", "x": 0, "y": 0, "x2": 0, "y2": 1, "colorStops": [{ "offset": 0, "color": "#FFFFFF" }, { "offset": 1, "color": "#F5FBFF" }] },
+        "grid": { "top": 10, "right": 40, "bottom": 60, "left": 50 },
+        "xAxis": { "type": "value", "min": 0, "max": 36, "splitLine": { "show": false }, "axisLine": { "show": true, "lineStyle": { "color": "#737373" } }, "axisTick": { "lineStyle": { "color": "#737373" } }, "axisLabel": { "fontFamily": "Geist, sans-serif", "fontSize": 16, "color": "#737373" }},
+        "yAxis": [
+          { "type": "category", "data": [""], "show": false },
+          { "type": "value", "show": false, "min": 0, "max": 12 }
+        ],
+        "series": [
+          { "name": "Distribution", "type": "line", "yAxisIndex": 1, "xAxisIndex": 0, "smooth": true, "symbol": "none", "z": 1, "lineStyle": { "color": "#1E3A8A", "width": 1.5 }, "areaStyle": { "color": { "type": "linear", "x": 0, "y": 0, "x2": 0, "y2": 1, "colorStops": [{ "offset": 0, "color": "rgba(30,58,138,0.18)" }, { "offset": 1, "color": "rgba(30,58,138,0.01)" }] } }, "data": [[0,0], [6,2], [12,5], [15,4], [18,3], [24,2], [30,1], [36,0]]},
+          { "name": "Box", "type": "boxplot", "layout": "horizontal", "z": 2, "itemStyle": { "color": "rgba(30,58,138,0.18)", "borderColor": "#1E3A8A", "borderWidth": 1.5 }, "data": [[6, 10, 15, 20, 30]], "markPoint": { "symbol": "circle", "symbolSize": 0, "data": [
+            { "name": "Min", "coord": [6, ""], "label": { "show": true, "formatter": "Min\n6", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Q1", "coord": [10, ""], "label": { "show": true, "formatter": "Q1\n10", "position": "bottom", "offset": [0, 35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Median", "coord": [15, ""], "label": { "show": true, "formatter": "Median\n15", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Q3", "coord": [20, ""], "label": { "show": true, "formatter": "Q3\n20", "position": "bottom", "offset": [0, 35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Max", "coord": [30, ""], "label": { "show": true, "formatter": "Max\n30", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }}
+          ]}},
+          { "name": "You Circle", "type": "scatter", "yAxisIndex": 0, "symbol": "path://M0,-10 A10,10 0 1,1 0,10 A10,10 0 1,1 0,-10 Z", "symbolSize": 32, "z": 3, "itemStyle": { "color": "#1E3A8A" }, "data": [[12, ""]]},
+          { "name": "You", "type": "scatter", "yAxisIndex": 0, "symbol": "path://M0,-5 L1.3,-1.8 L4.8,-1.6 L2.3,0.9 L3,4 L0,2.5 L-3,4 L-2.3,0.9 L-4.8,-1.6 L-1.3,-1.8 Z", "symbolSize": 20, "z": 4, "itemStyle": { "color": "#FFFFFF" }, "label": { "show": false }, "data": [[12, ""]], "markLine": { "silent": true, "symbol": ["none", "none"], "lineStyle": { "color": "#AAAAAA", "type": "dashed", "width": 1 }, "label": { "show": false }, "data": [{ "xAxis": 12 }]}}
+        ],
+        "tooltip": { "trigger": "item" }
+      }
+    },
+    "revenue_multiple": {
+      "type": "echarts@v5a",
+      "width": 600,
+      "height": 320,
+      "category": "Bottom 50%",
+      "option": {
+        "backgroundColor": { "type": "linear", "x": 0, "y": 0, "x2": 0, "y2": 1, "colorStops": [{ "offset": 0, "color": "#FFFFFF" }, { "offset": 1, "color": "#F5FBFF" }] },
+        "grid": { "top": 10, "right": 40, "bottom": 60, "left": 50 },
+        "xAxis": { "type": "value", "min": 0, "max": 30, "splitLine": { "show": false }, "axisLine": { "show": true, "lineStyle": { "color": "#737373" } }, "axisTick": { "lineStyle": { "color": "#737373" } }, "axisLabel": { "fontFamily": "Geist, sans-serif", "fontSize": 16, "color": "#737373" }},
+        "yAxis": [
+          { "type": "category", "data": [""], "show": false },
+          { "type": "value", "show": false, "min": 0, "max": 12 }
+        ],
+        "series": [
+          { "name": "Distribution", "type": "line", "yAxisIndex": 1, "xAxisIndex": 0, "smooth": true, "symbol": "none", "z": 1, "lineStyle": { "color": "#1E3A8A", "width": 1.5 }, "areaStyle": { "color": { "type": "linear", "x": 0, "y": 0, "x2": 0, "y2": 1, "colorStops": [{ "offset": 0, "color": "rgba(30,58,138,0.18)" }, { "offset": 1, "color": "rgba(30,58,138,0.01)" }] } }, "data": [[0,0], [5,2], [10,5], [15,4], [20,2], [25,1], [30,0]]},
+          { "name": "Box", "type": "boxplot", "layout": "horizontal", "z": 2, "itemStyle": { "color": "rgba(30,58,138,0.18)", "borderColor": "#1E3A8A", "borderWidth": 1.5 }, "data": [[3, 8, 15, 22, 28]], "markPoint": { "symbol": "circle", "symbolSize": 0, "data": [
+            { "name": "Min", "coord": [3, ""], "label": { "show": true, "formatter": "Min\n3", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Q1", "coord": [8, ""], "label": { "show": true, "formatter": "Q1\n8", "position": "bottom", "offset": [0, 35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Median", "coord": [15, ""], "label": { "show": true, "formatter": "Median\n15", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Q3", "coord": [22, ""], "label": { "show": true, "formatter": "Q3\n22", "position": "bottom", "offset": [0, 35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }},
+            { "name": "Max", "coord": [28, ""], "label": { "show": true, "formatter": "Max\n28", "position": "top", "offset": [0, -35], "color": "#1E3A8A", "fontFamily": "Geist, sans-serif", "fontSize": 12, "fontWeight": 500, "lineHeight": 16, "align": "center" }}
+          ]}},
+          { "name": "You Circle", "type": "scatter", "yAxisIndex": 0, "symbol": "path://M0,-10 A10,10 0 1,1 0,10 A10,10 0 1,1 0,-10 Z", "symbolSize": 32, "z": 3, "itemStyle": { "color": "#1E3A8A" }, "data": [[10, ""]]},
+          { "name": "You", "type": "scatter", "yAxisIndex": 0, "symbol": "path://M0,-5 L1.3,-1.8 L4.8,-1.6 L2.3,0.9 L3,4 L0,2.5 L-3,4 L-2.3,0.9 L-4.8,-1.6 L-1.3,-1.8 Z", "symbolSize": 20, "z": 4, "itemStyle": { "color": "#FFFFFF" }, "label": { "show": false }, "data": [[10, ""]], "markLine": { "silent": true, "symbol": ["none", "none"], "lineStyle": { "color": "#AAAAAA", "type": "dashed", "width": 1 }, "label": { "show": false }, "data": [{ "xAxis": 10 }]}}
+        ],
+        "tooltip": { "trigger": "item" }
+      }
+    },
+    "key_insights": [
+      {
+        "title": "Strong Revenue Growth and Efficiency",
+        "description": "Your revenue growth rate of 19.3% surpasses the peer median of 15.7%, indicating effective market penetration and demand for your product/service. Additionally, your Burn Multiple of 1.08x is significantly better than the peer median of 1.78x, demonstrating excellent capital efficiency in achieving this growth, which is crucial for seed-stage African startups often facing tighter funding environments."
+      },
+      {
+        "title": "Excellent Employee Productivity",
+        "description": "With Revenue per Employee at USD 6427, you are outperforming the peer median of USD 4442 by a substantial margin. This suggests a highly productive team and efficient operational structure, which is a strong indicator of scalability and effective resource utilization in a cost-sensitive market."
+      },
+      {
+        "title": "Slightly Lower Gross Margin",
+        "description": "Your gross margin of 70.0% is slightly below the peer median of 74.7%. While still healthy, this indicates there might be opportunities to optimize your Cost of Goods Sold (COGS) or pricing strategy to improve overall profitability, which is key for long-term sustainability."
+      },
+      {
+        "title": "Adequate but Not Extensive Runway",
+        "description": "A runway of 12 months is adequate for a seed-stage company, especially given your efficient burn. However, for African startups where fundraising cycles can sometimes be longer or more challenging, extending this runway could provide greater security and flexibility for strategic initiatives."
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Optimize Gross Margin for Enhanced Profitability",
+        "priority": "High",
+        "category": "Profitability",
+        "actions": [
+          "Conduct a detailed analysis of your COGS to identify specific areas for cost reduction (e.g., supplier negotiations, process automation, localized sourcing).",
+          "Explore potential for premium pricing strategies if your value proposition allows, or consider tiered pricing models.",
+          "Benchmark specific cost components against industry best practices within the African context."
+        ]
+      },
+      {
+        "title": "Sustain Growth and Explore Market Expansion",
+        "priority": "Medium",
+        "category": "Growth",
+        "actions": [
+          "Continue to invest strategically in sales and marketing efforts that have proven effective in driving your current growth.",
+          "Research and identify adjacent market segments or new geographical regions within Africa that align with your product/service offering.",
+          "Leverage your strong Burn Multiple to attract follow-on funding for accelerated, but capital-efficient, expansion."
+        ]
+      },
+      {
+        "title": "Proactively Extend Runway and Prepare for Next Round",
+        "priority": "Medium",
+        "category": "Funding & Operations",
+        "actions": [
+          "Given your efficient burn, strategically explore options to extend your runway to 18-24 months through careful expense management or an opportunistic bridge round if necessary.",
+          "Begin preparing materials for your next funding round (e.g., Series A) well in advance, leveraging your strong metrics to attract investors.",
+          "Continue to monitor cash flow rigorously and implement strict budget controls across all departments."
+        ]
+      }
+    ]
+  }
